@@ -1,7 +1,10 @@
-function takeANumber(katzDeliLine,name){
-  katzDeliLine.push(name)
-  return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
-}
+var num = 0;
+
+function takeANumber(katzDeliLine){
+  return `Welcome, ${num++} You are number ${katzDeliLine.length} in line.`
+  }
+  //      result += (i+1) + ". " + line[i] + ", "
+
 
 function nowServing(katzDeliLine){
   if(katzDeliLine.length>0){
@@ -23,3 +26,5 @@ function currentLine(line){
    return  "The line is currently empty."
   }
 }
+//Nikita 
+//1.Nikita, 2.Shannon
